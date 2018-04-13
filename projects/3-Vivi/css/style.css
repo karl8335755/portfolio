@@ -1,0 +1,127 @@
+*{
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+
+@font-face{
+	font-family:vivi;
+	src:url('../font/Jelly Crazies.ttf');
+}
+.wrapper{
+	width: 100%;
+	background-color: #b9306e;
+}
+
+.nav{
+	width: 100%;
+	height: 128px;
+	background-image: url('../image/headerbg.jpg');
+	background-position: center top;
+}
+.nav img{
+	margin-top: 22px;
+	margin-left:150px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.nav ul{
+	margin-top: 10px;
+	margin-right: 60px;
+	font-family: LingWai TC;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+.nav ul li{
+	float:  left;
+	color : #b9306e;
+	font-size: 25px;
+	list-style: none;
+	align-items: center;
+	padding: 20px 20px;
+}
+.nav ul li h3{
+	color: white;
+}
+.banner{
+	width: 100%;
+	height : 100vh;
+	margin-top: 50px;
+	background-image: url('../image/bg.jpg');
+	background-position: center;
+
+}
+
+.banner .cold{
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+	position: absolute;
+	left: 15%;
+	top: 200px;
+	border: 5px black solid;
+	background-image: url('../image/4.jpg');
+	background-position:90% 90% ;
+	background-size: 170%;
+	background-repeat: no-repeat;
+}
+.banner .hot{
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+	position: absolute;
+	left: 35%;
+	top: 500px;
+	border: 5px black solid;
+	background-image: url('../image/smileycup.jpg');
+	background-position:90% 90% ;
+	background-size: 170%;
+	background-repeat: no-repeat;
+}
+.banner .snacks{
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+	position: absolute;
+	left:55%;
+	top: 220px;
+	float : right;
+	border: 5px black solid;
+	background-image: url('../image/milk.jpg');
+	background-position:0% 100%;
+	background-size: 200%;
+	background-repeat: no-repeat;
+}
+.banner .arrow{
+	width: 200px;
+	height: 200px;
+	background-image: url('../image/arrow.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	position: absolute;
+	right: 10%;
+	top: 600px;
+	transition: 1s;
+}
+.banner .arrow span{
+	font-family: vivi;
+	font-size: 14px;
+	letter-spacing: 15px;
+	position: relative;
+	left: 28px;
+	top: 28px;
+}
+.footer{
+	width: 100%;
+	height: 15vh;
+	color: white;
+	display: flex;
+	align-items: center;
+	text-align: center;
+}
+.footer h4{
+	width: 50%;
+	margin: auto;
+}

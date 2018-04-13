@@ -1,0 +1,184 @@
+
+body, 
+html 
+
+	border: 0
+	margin: 0
+	.wrapper
+		width: 100%
+		.welcome
+			width: 100%
+			height: 1200px
+			position: relative
+			overflow: hidden
+			.bg-img
+				position: absolute
+				left: -12%
+				z-index: -1
+				width: 120%
+				height: 110%
+				filter: brightness(75%)
+			.nav
+				width: 100%
+				height: 50px
+				background-color: black
+				position: fixed
+				display: none
+
+				ul
+					width: 75%
+					height: 100%
+					margin: auto
+					text-align: center
+					li
+						list-style: none
+						display: inline-block
+						color: white
+						font-size: 14px
+						margin-top: 15px
+						margin-left: 50px
+						a
+							text-decoration: none
+							color: #aaa
+							&:hover
+								color: white
+
+			.header
+				.menubar
+					width: 80%
+					height: 180px
+					position: relative
+					margin: auto
+					text-align: center
+					display: flex
+					justify-content: center
+
+					.menu1
+
+						width: 40%
+						height: 50px
+						position: absolute
+						bottom: 15%
+						left: 10%
+						list-style: none
+						text-align: center
+						li
+							float: left
+							margin-right: 50px
+							color: #aaa
+							&:hover
+								color: white
+					.menu2
+						width: 40%
+						height: 50px
+						position: absolute
+						bottom: 15%
+						right: 0%
+						list-style: none
+						text-align: center
+						li
+							float: left
+							margin-right: 50px
+							color: #aaa
+							&:hover
+								color: white
+					.logo
+						width: 200px
+						height: 200px
+						position: absolute
+						left: 40%
+						top: 0%
+				.banner
+					width: 80%
+					height: 250px
+					margin: auto
+					margin-top: 180px
+					color: white
+					text-align: center
+					h1
+						font-size: 72px
+				.signup
+					width: 55%
+					height: 350px
+					margin: auto
+					margin-top: 50px
+					text-align: center
+					h2
+						color: #345678
+						font-size: 42px
+						margin-top: 50px
+					p
+						color: white
+						font-size: 20px
+					input
+						width: 250px
+						height: 50px
+						display: block
+						margin: auto
+						color: #333
+						border-radius: 5px
+						font-size: 20px
+					button
+						display: block
+						width: 150px
+						height: 50px
+						margin: auto
+						margin-top: 15px
+						border: none
+						border-radius: 50px
+						background-color: #333
+						color: white
+						font-size: 20px
+						margin-bottom: 50px
+					span
+						color: white
+
+		.intro
+			width: 80%	
+			height: 500px
+			margin: auto
+			display: grid
+			grid-template-column: 3fr 1fr
+			grid-gap: 50px
+			.open
+				grid-column: 1
+				margin: 50px
+				margin-right: 0px
+				h1
+					letter-spacing: 5px
+					line-height: 50px
+				p
+					color: #AAA
+			.contact
+				grid-column: 2
+				margin: 50px
+				color: #AAA
+				ul
+					li
+						list-style: none
+						margin-top: 50px
+		.maps
+			width: 100%
+			height: 150px
+			text-align: center
+		.social
+			width: 100%
+			height: 75px
+			margin: auto
+			background-color: #345
+			ul
+				li
+					list-style: none
+		footer
+			width: 100%
+			height: 150px
+			position: relative
+			bottom: 0
+			background-color: #000
+			color: #aaa
+			display: flex
+			align-content: center
+			h3
+				font-size: 16px
+				margin-top: 5%
+				margin-left: 10%
